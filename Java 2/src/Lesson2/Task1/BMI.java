@@ -1,4 +1,4 @@
-package Lesson2;
+package Lesson2.Task1;
 
 public class BMI {
 
