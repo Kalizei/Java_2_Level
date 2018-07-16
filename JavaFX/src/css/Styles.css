@@ -1,0 +1,13 @@
+#btn1 {
+    -fx-fout: "Verdana";
+    -fx-padding: 4px;
+    -fx-background-color: blue;
+    -fx-text-fill: white;
+}
+
+#btn1:hover {
+    -fx-fout: "Arial";
+    -fx-padding: 4px;
+    -fx-background-color: black;
+    -fx-text-fill: red;
+}
