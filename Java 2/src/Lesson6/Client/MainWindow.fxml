@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<VBox alignment="center"
+      xmlns="http://javafx.com/javafx/8.0.121"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="Lesson6.Client.Controller">
+   <MenuBar>
+     <menus>
+       <Menu mnemonicParsing="false" text="File">
+         <items>
+           <MenuItem mnemonicParsing="false" onAction="#openSettings" text="Настройки" />
+           <MenuItem mnemonicParsing="false" onAction="#connection" text="Соедениться с сервером" />
+           <MenuItem mnemonicParsing="false" onAction="#exit" text="Выход" />
+         </items>
+       </Menu>
+     </menus>
+   </MenuBar>
+    <TextArea fx:id="textArea" editable="false" VBox.vgrow="ALWAYS" />
+    <HBox>
+        <TextField fx:id="textField" HBox.hgrow="ALWAYS" />
+        <Button fx:id="btn1" onAction="#sendMsg" text="send" />
+    </HBox>
+</VBox>
